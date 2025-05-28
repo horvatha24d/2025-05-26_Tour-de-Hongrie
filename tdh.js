@@ -52,7 +52,7 @@ function listaelem(eredmeny){
 }
 
 function frissit(){
-    var sorsz = document.getElementById('verseny').value;
+    var sorsz = document.getElementById('sorszam').innerText; value;
     document.getElementById('hely1').innerHTML = listaelem(gyoztesek[sorsz].split(";")[0]); 
     document.getElementById('hely2').innerHTML = listaelem(gyoztesek[sorsz].split(";")[1]); 
     document.getElementById('hely3').innerHTML = listaelem(gyoztesek[sorsz].split(";")[2]); 
